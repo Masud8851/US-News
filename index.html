@@ -48,26 +48,75 @@
             opacity: 0.9;
             box-shadow: 0px 1px 3px 2px #f30909;
         }
+        /* Style the buttons that are used to open and close the accordion panel */
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
 
     </style>
 </head>
 <body>
-    <section class="container" >
+    <section class="container">
         <h1 class="fw-bold fs-1">2021 Best Global Universities Rankings</h1>
         <p class="fs-5"> <img class="w-25 ms-2" src="https://www.usnews.com/static-atlas/assets/img/education/global/Badge-GlobalUniversities-Profile.svg">  These institutions from the U.S. and more than 80 other countries have been ranked based on 13 indicators  that measure their academic research performance and their global and regional reputations. Students can use these rankings to explore the higher education options that exist beyond their own countries' borders and to compare key aspects of schools' research missions. These are the world's nearly 1,500 top universities. <a href="">Read the methodology »</a> <br> <br>
         To unlock more data and access tools to help you get into your dream school, sign up for the <a href="">U.S. News College Compass</a>!</p>
-        <div class="social-icon">
-            
-            <a href="https://www.facebook.com/masud201342/" target="_blank"><i class="fa fa-facebook"></i> </a>
-
-            <a href="https://twitter.com/Masudur29471870"><i class="fa fa-twitter" target="_blank"></i> </a>
-
-            <a href="https://www.facebook.com/fifaworldcup" target="_blank"><i class="far fa-futbol"></i> </a>
-
-            <a href="https://www.instagram.com/masudur.mim/" target="_blank"><i class="fa fa-instagram"></i> </a>
-
-            <a href="masud19171.cse@gmail.com" target="_blank"><i class="fa fa-google-plus"></i> </a>
-          </div>
+        
     </section>
+
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Summary
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Here are the best global universities</h4>
+                        <!-- Top 10 Universities -->
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-icon">
+            <a href="" target="_blank"> </a>
+    
+            <a href="" target="_blank"> </a>
+    
+            <a href="" target="_blank"> </a>
+    
+            <a href="" target="_blank"> </a>
+        </div>
+    </div>
+    
+    
+    
+   
 </body>
 </html>
