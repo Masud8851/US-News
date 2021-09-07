@@ -1,0 +1,43 @@
+
+/*New_page*/
+.sclrank{
+    border: 1px solid #e8f1fa;
+  }
+  .input_placeholder {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #e8f1fa;
+  }
+  .bodypart{
+    padding-top: 20px;
+  }
+  
+  button.btn.btn-light.btnstudy1 {
+    border: 1px solid #ccced1;
+    margin: 0px 0.5rem 0.5rem 0px;
+    padding: 5px 1rem;
+    height: 2.25rem;
+    border-radius: calc(1.125rem);
+    font-size: 0.875rem;
+  
+  }
+  button.btn.btn-light.btnstudy1:hover{
+    border: 2px solid grey;
+  }
+  .un_design{
+    display: flex;
+    margin-top: 25px;
+    box-shadow: 8px 8px 8px 5px rgb(224 224 224);
+  }
+  .un_design_image{
+    width: 92%;height: 175px;
+  }
+  .un_design_image:hover{
+    opacity: 0.7;
+  }
+  .un-details{
+    border-right: 1px solid #cdcbc7;
+    width: 52%;
+  }
+  
+  
+  
