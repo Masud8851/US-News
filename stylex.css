@@ -3,13 +3,30 @@
 .sclrank{
     border: 1px solid #e8f1fa;
 }
-#header-btn{
-    visibility: hidden;
-}
+
 @media (max-width:769px) {
-    .sclrank{
-        display: flex;
-        flex-direction: row;
+    #header-img{
+        width: 180px;
+    }
+    #header-row{
+        visibility: hidden;
+    }
+    #header-btn{
+        position: relative;
+        top: -100px;
+    }
+    #left-according{
+        visibility: hidden;
+    }
+    #features-area{
+        position: relative;
+        top: -420px;
+    }
+    .un_design_image{
+        width: 100%;
+    }
+    .un-right{
+        visibility: hidden;
     }
 }
   .input_placeholder {

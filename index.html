@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>US-News</title>
-    <link rel="stylesheet" href="stylex.css">
-    <!-- CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- ICON -->
-    <script src="https://kit.fontawesome.com/ce91928e05.js" crossorigin="anonymous"></script>
-    <style>
-        *{
-            margin:0;
-            padding: 0;
-            box-sizing: border-box;
-            list-style: none;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        #header-img{
-            float: right;
-        }
-        #float{
-            float: left;
-        }
-        .social-icon{
-            width: 100%;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>US-News</title>
+        <link rel="stylesheet" href="stylex.css" />
+        <!-- CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <!-- ICON -->
+        <script src="https://kit.fontawesome.com/ce91928e05.js" crossorigin="anonymous"></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            #header-img {
+                float: right;
+                width: 300px;
+            }
+            #float {
+                float: left;
+            }
+            .social-icon {
+                width: 100%;
+            }
 
-        .social-icon a{
-            font-size: 22px;
-            text-align: center;
-            width: 45px;
-            color: rgb(25, 129, 133);
-            height: 45px;
-            line-height: 39px;
-            display: inline-block;
-            border-radius: 50%;
-            border: 2px solid #05ff05;
-            /* box-shadow: 0px 0px 0px 1px #ffffff66; */
-            margin: 3px;
-            /* color: #fff; */
-            /* opacity: 0.7; */
-            transition: 0.3s ease-in-out;
-        }
+            .social-icon a {
+                font-size: 22px;
+                text-align: center;
+                width: 45px;
+                color: rgb(25, 129, 133);
+                height: 45px;
+                line-height: 39px;
+                display: inline-block;
+                border-radius: 50%;
+                border: 2px solid #05ff05;
+                /* box-shadow: 0px 0px 0px 1px #ffffff66; */
+                margin: 3px;
+                /* color: #fff; */
+                /* opacity: 0.7; */
+                transition: 0.3s ease-in-out;
+            }
 
-        .social-icon a:hover{
-            opacity: 0.9;
-            box-shadow: 0px 1px 3px 2px #f30909;
-        }
-
-    </style> 
-</head>
-<body>
-    <!-- <div class="containermain">
+            .social-icon a:hover {
+                opacity: 0.9;
+                box-shadow: 0px 1px 3px 2px #f30909;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="containermain">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
             <a href="/"><img src="https://www.usnews.com/static/img/usn-logo-large.svg" alt="" style="height: 60px;" /></a>
     
@@ -139,87 +139,94 @@
             </div>
         </nav>
     </div> -->
-    
-    <!-- Header Breadcrumb -->
-    <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="page"><a href="">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="">Education</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="">Global University</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="">Best Global Universities Rank...</a></li>
-            </ol>
-        </nav>
-    </div>
-    <!-- Header Brief -->
-    <section class="container">
-        <h1 class="fw-bold fs-1">2021 Best Global Universities Rankings</h1>
-        <p class="fs-5" id="float"> <img class="w-25 ms-2"  id="header-img" src="https://www.usnews.com/static-atlas/assets/img/education/global/Badge-GlobalUniversities-Profile.svg">  These institutions from the U.S. and more than 80 other countries have been ranked based on 13 indicators  that measure their academic research performance and their global and regional reputations. Students can use these rankings to explore the higher education options that exist beyond their own countries' borders and to compare key aspects of schools' research missions. These are the world's nearly 1,500 top universities. <a href="" class="text-primary">Read the methodology »</a> <br>
-        To unlock more data and access tools to help you get into your dream school, sign up for the <a href="" class="text-primary">U.S. News College Compass</a>!</p>
-        <div class="w-75" id="topExample">
-            <div>
-                <h2 id="topUniversities">
-                    <button class="accordion-button w-25 bg-white shadow-none text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#topUniversity" aria-expanded="true" aria-controls="collapseOne">
-                    Summary
-                    </button>
-                </h2>
-                <div id="topUniversity" class="accordion-collapse collapse" aria-labelledby="topUniversities" data-bs-parent="#topExample">
-                    <div class="accordion-body">
-                        <h4>Here are the best global universities</h4>
-                        <!-- Top 10 Universities -->
-                        <a href="">Harvard University</a>  <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> <br>
-                        <a href="">Harvard University</a> 
+
+        <!-- Header Breadcrumb -->
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">Education</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">Global University</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="">Best Global Universities Rank...</a></li>
+                </ol>
+            </nav>
+        </div>
+        <!-- Header Brief -->
+        <section class="container">
+            <h1 class="fw-bold fs-1">2021 Best Global Universities Rankings</h1>
+            <p class="fs-5" id="float">
+                <img class=" ms-2" id="header-img" src="https://www.usnews.com/static-atlas/assets/img/education/global/Badge-GlobalUniversities-Profile.svg" /> These institutions from the U.S. and more than 80 other countries have been
+                ranked based on 13 indicators that measure their academic research performance and their global and regional reputations. Students can use these rankings to explore the higher education options that exist beyond their own
+                countries' borders and to compare key aspects of schools' research missions. These are the world's nearly 1,500 top universities. <a href="" class="text-primary">Read the methodology »</a> <br />
+                To unlock more data and access tools to help you get into your dream school, sign up for the <a href="" class="text-primary">U.S. News College Compass</a>!
+            </p>
+            <div class="w-75" id="topExample">
+                <div>
+                    <h2 id="topUniversities">
+                        <button class="accordion-button w-25 bg-white shadow-none text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#topUniversity" aria-expanded="true" aria-controls="collapseOne">
+                            Summary
+                        </button>
+                    </h2>
+                    <div id="topUniversity" class="accordion-collapse collapse" aria-labelledby="topUniversities" data-bs-parent="#topExample">
+                        <div class="accordion-body">
+                            <h4>Here are the best global universities</h4>
+                            <!-- Top 10 Universities -->
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a> <br />
+                            <a href="">Harvard University</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Social Icon -->
-        <div class="social-icon">
-            <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-facebook"></i> </a>
-            <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-twitter" ></i> </a>
-            <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-instagram"></i> </a>
-            <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-google-plus"></i> </a>
-        </div>
-    </section>
-
-    <!-- Total Schools and Rank By -->
-    <div class="container" style="padding-top: 20px;">
-        <div class="row sclrank">
-            <div class="col-lg-8 col-md-2 col-sm-2" style="border-right: 1px solid black;">
-                <p style="font-weight: 700; padding-top: 10px;">1678 Schools</p>
+            <!-- Social Icon -->
+            <div class="social-icon">
+                <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-facebook"></i> </a>
+                <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-twitter"></i> </a>
+                <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-instagram"></i> </a>
+                <a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank"><i class="fa fa-google-plus"></i> </a>
             </div>
-            <div class="col-lg-4 col-md-4" style="display: flex;padding-left: 20px;">
+        </section>
+
+        <!-- Total Schools and Rank By -->
+        <div class="container" style="padding-top: 20px;">
+            <div class="row sclrank" id="header-row">
+                <div class="col-md-8" style="border-right: 1px solid black;">
+                    <p style="font-weight: 700; padding-top: 10px;">1678 Schools</p>
+                </div>
+                <div class="col-lg-4 col-md-4" style="display: flex; padding-left: 20px;">
+                    <div>
+                        <p style="font-weight: 700; padding-top: 10px; text-transform: uppercase; padding-right: 10px;">
+                            Short By:
+                        </p>
+                    </div>
+                    <div style="padding-top: 5px;">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Rankings (high to low)</option>
+                            <option value="1">Rankings (low to high)</option>
+                            <option value="2">Alphabetically (A-Z)</option>
+                            <option value="3">Alphabetically (Z-A)</option>
+                            <option value="4">Enrollment (high to low)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center" id="header-btn">
+                <p style="font-weight: 700; padding-top: 10px;">1678 Schools</p>
                 <div>
-                    <p style="font-weight: 700;padding-top: 10px; font-size: 12px; text-transform: uppercase;padding-right: 10px;">
-                        Short By:
-                    </p>
-                </div>
-                <div style="padding-top: 5px;">
-                    <select class="form-select" id="form-select" aria-label="Default select example">
-                        <option selected>Rankings (high to low)</option>
-                        <option value="1">Rankings (low to high)</option>
-                        <option value="2">Alphabetically (A-Z)</option>
-                        <option value="3">Alphabetically (Z-A)</option>
-                        <option value="4">Enrollment (high to low)</option>
-                    </select>
-                </div>
-                <div class="d-flex flex-end" id="header-btn">
                     <button class="btn btn-primary">Filter</button>
                     <button class="btn btn-outline-primary">Sort</button>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- <div class="d-flex justify-content-between container">
+        <!-- <div class="d-flex justify-content-between container">
         <h5>1,678 schools</h5>
         <div class="dropdown align-items-center">
             <strong>Sort By:</strong>
@@ -254,212 +261,191 @@
         </div>
         <div class="col-lg-9"></div>
     </div> -->
-    <!--bODYPART START-->
-  <div class="container"> 
-    <div class="row bodypart">
+        <!--bODYPART START-->
+        <div class="container">
+            <div class="row bodypart">
+                <!--LEFT SIDE PART START-->
+                <div class="col-lg-2" id="left-according">
+                    <div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        School Name
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="input_placeholder">
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="School Name" />
+                                    </div>
+                                </div>
+                            </div>
 
-      <!--LEFT SIDE PART START-->
-      <div class="col-lg-2">
-        <div>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  School Name
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="input_placeholder">
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="School Name">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Region
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="input_placeholder">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Select Region</option>
+                                            <option value="1">Africa</option>
+                                            <option value="2">Asia</option>
+                                            <option value="3">Australia/New Zealand</option>
+                                            <option value="4">Europe</option>
+                                            <option value="5">Latin America</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Country/Region
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="input_placeholder">
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type to Select" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    City
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="input_placeholder">
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type to Select" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    Enrollment
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="input_placeholder">
+                                    <label for="customRange1" class="form-label" style="margin-left: 10px;">0-40000+</label>
+                                    <input type="range" class="form-range" id="customRange1" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-  
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Region
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="input_placeholder">
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Select Region</option>
-                    <option value="1">Africa</option>
-                    <option value="2">Asia</option>
-                    <option value="3">Australia/New Zealand</option>
-                    <option value="4">Europe</option>
-                    <option value="5">Latin America</option>
-                  </select>
+                <!--lEFT SIDE PART END-->
+
+                <div class="col-lg-10" id="features-area">
+                    <div class="filter_page2">
+                        <p style="padding-left: 5px; font-weight: 700;">FEATURED COUNTRIES:</p>
+                        <button type="button" class="btn btn-light btnstudy1">Canada</button>
+                        <button type="button" class="btn btn-light btnstudy1">China</button>
+                        <button type="button" class="btn btn-light btnstudy1">France</button>
+                        <button type="button" class="btn btn-light btnstudy1">Germany</button>
+                        <button type="button" class="btn btn-light btnstudy1">India</button>
+                        <button type="button" class="btn btn-light btnstudy1">Italy</button>
+                        <button type="button" class="btn btn-light btnstudy1">Japan</button>
+                        <button type="button" class="btn btn-light btnstudy1">Netherlands</button>
+                    </div>
+                    <!--Universirty Design Part 01 sTART-->
+                    <div class="un_design">
+                        <div style="width: 30%;">
+                            <img class="un_design_image" src="img/imageuniversity1.jpg" />
+                        </div>
+
+                        <div class="un-details">
+                            <p style="font-weight: 800; font-size: x-large;">Harbard University</p>
+                            <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
+                            <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
+                            <span>Cambridge (U.S.)</span>
+                            <p>
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#1</b> in <b>Best Global Universities</b></span><br />
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#1</b> in <b>Best Global Universities</b></span>
+                            </p>
+                            <a href="#" style="text-decoration: none; color: grey; padding-top: -10px;">READ MORE >></a>
+                        </div>
+
+                        <div class="un-right">
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Global Score</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">100.0</p>
+
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Enrollment</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">21,261</p>
+                        </div>
+                    </div>
+                    <!--Universirty Design Part 01 End-->
+
+                    <!--Universirty Design Part 02 sTART-->
+                    <div class="un_design">
+                        <div style="width: 30%;">
+                            <img class="un_design_image" src="img/imageuniversity2.jpg" />
+                        </div>
+
+                        <div class="un-details">
+                            <p style="font-weight: 800; font-size: x-large;">Massachusetts Institute of Technology</p>
+                            <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
+                            <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
+                            <span>Cambridge (U.S.)</span>
+                            <p>
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#2</b> in <b>Best Global Universities</b></span><br />
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#2</b> in <b>Best Global Universities</b></span>
+                            </p>
+                            <a href="#" style="text-decoration: none; color: grey; padding-top: -10px;">READ MORE >></a>
+                        </div>
+
+                        <div class="un-right">
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Global Score</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">100.0</p>
+
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Enrollment</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">21,261</p>
+                        </div>
+                    </div>
+                    <!--Universirty Design Part 02 End-->
+
+                    <!--Universirty Design Part 03 START-->
+                    <div class="un_design">
+                        <div style="width: 30%;">
+                            <img class="un_design_image" src="img/imageuniversity3.jpg" />
+                        </div>
+
+                        <div class="un-details">
+                            <p style="font-weight: 800; font-size: x-large;">Stanford University</p>
+                            <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
+                            <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
+                            <span>Cambridge (U.S.)</span>
+                            <p>
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#3</b> in <b>Best Global Universities</b></span><br />
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#3</b> in <b>Best Global Universities</b></span>
+                            </p>
+                            <a href="#" style="text-decoration: none; color: grey; padding-top: -10px;">READ MORE >></a>
+                        </div>
+
+                        <div class="un-right">
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Global Score</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">100.0</p>
+
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Enrollment</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">21,261</p>
+                        </div>
+                    </div>
+                    <!--Universirty Design Part 03 End-->
                 </div>
-              </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Country/Region
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="input_placeholder">
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type to Select">
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                City
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-              <div class="input_placeholder">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Type to Select">
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Enrollment
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-              <div class="input_placeholder">
-                <label for="customRange1" class="form-label" style="margin-left:10px ;">0-40000+</label>
-                <input type="range" class="form-range" id="customRange1">
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <!--lEFT SIDE PART END-->
 
+        <!--bODYPART START-->
 
-      <div class="col-lg-10">
-        <div class="filter_page2">
-          <p style="padding-left: 5px; font-weight: 700;">FEATURED COUNTRIES:</p>
-              <button type="button" class="btn btn-light btnstudy1">Canada</button>
-              <button type="button" class="btn btn-light btnstudy1">China</button>
-              <button type="button" class="btn btn-light btnstudy1">France</button>
-              <button type="button" class="btn btn-light btnstudy1">Germany</button>
-              <button type="button" class="btn btn-light btnstudy1">India</button>
-              <button type="button" class="btn btn-light btnstudy1">Italy</button>
-              <button type="button" class="btn btn-light btnstudy1">Japan</button>
-              <button type="button" class="btn btn-light btnstudy1">Netherlands</button>
-        </div>
-        <!--Universirty Design Part 01 sTART-->
-        <div class="un_design">
-          <div style="width: 30%;">
-            <img class="un_design_image" src="img/imageuniversity1.jpg">
-          </div>
-
-          <div class="un-details">
-              <p style="font-weight: 800;font-size: x-large;">Harbard University</p>
-              <span><img src="img/USA.svg" style="height: 20px; width: 20px;"></span>
-              <span style="padding-left: 5px;padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
-              <span>Cambridge (U.S.)</span>
-              <p><img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;"><span style="padding-left: 5px;"><b>#1</b> in <b>Best Global Universities</b></span><br>
-              <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;"><span style="padding-left: 5px;"><b>#1</b> in <b>Best Global Universities</b></span></p>
-              <a href="#" style="text-decoration: none;color: grey;padding-top: -10px;">READ MORE >></a>
-              
-          </div>
-
-
-          <div class="un-right">
-              <p style="padding: 10px 0px 0px 10px;text-transform: uppercase;font-size:small; color: grey;">Global Score</p>
-              <p style="padding-left: 10px; font-weight: 700;margin-top: -15px;">100.0</p>
-
-              <p style="padding: 10px 0px 0px 10px;text-transform: uppercase;font-size:small; color: grey;">Enrollment</p>
-              <p style="padding-left: 10px; font-weight: 700;margin-top: -15px;">21,261</p>
-
-          </div>
-          
-          
-
-        </div>
-        <!--Universirty Design Part 01 End-->
-
-        <!--Universirty Design Part 02 sTART-->
-        <div class="un_design">
-          <div style="width: 30%;">
-            <img class="un_design_image" src="img/imageuniversity2.jpg">
-          </div>
-
-          <div class="un-details">
-              <p style="font-weight: 800;font-size: x-large;">Massachusetts Institute of Technology</p>
-              <span><img src="img/USA.svg" style="height: 20px; width: 20px;"></span>
-              <span style="padding-left: 5px;padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
-              <span>Cambridge (U.S.)</span>
-              <p><img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;"><span style="padding-left: 5px;"><b>#2</b> in <b>Best Global Universities</b></span><br>
-              <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;"><span style="padding-left: 5px;"><b>#2</b> in <b>Best Global Universities</b></span></p>
-              <a href="#" style="text-decoration: none;color: grey;padding-top: -10px;">READ MORE >></a>
-              
-          </div>
-
-
-          <div class="un-right">
-              <p style="padding: 10px 0px 0px 10px;text-transform: uppercase;font-size:small; color: grey;">Global Score</p>
-              <p style="padding-left: 10px; font-weight: 700;margin-top: -15px;">100.0</p>
-
-              <p style="padding: 10px 0px 0px 10px;text-transform: uppercase;font-size:small; color: grey;">Enrollment</p>
-              <p style="padding-left: 10px; font-weight: 700;margin-top: -15px;">21,261</p>
-
-          </div>
-          
-          
-
-        </div>
-        <!--Universirty Design Part 02 End-->
-
-        <!--Universirty Design Part 03 START-->
-        <div class="un_design">
-          <div style="width: 30%;">
-            <img class="un_design_image" src="img/imageuniversity3.jpg">
-          </div>
-
-          <div class="un-details">
-              <p style="font-weight: 800;font-size: x-large;">Stanford University</p>
-              <span><img src="img/USA.svg" style="height: 20px; width: 20px;"></span>
-              <span style="padding-left: 5px;padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
-              <span>Cambridge (U.S.)</span>
-              <p><img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;"><span style="padding-left: 5px;"><b>#3</b> in <b>Best Global Universities</b></span><br>
-              <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;"><span style="padding-left: 5px;"><b>#3</b> in <b>Best Global Universities</b></span></p>
-              <a href="#" style="text-decoration: none;color: grey;padding-top: -10px;">READ MORE >></a>
-              
-          </div>
-
-
-          <div class="un-right">
-              <p style="padding: 10px 0px 0px 10px;text-transform: uppercase;font-size:small; color: grey;">Global Score</p>
-              <p style="padding-left: 10px; font-weight: 700;margin-top: -15px;">100.0</p>
-
-              <p style="padding: 10px 0px 0px 10px;text-transform: uppercase;font-size:small; color: grey;">Enrollment</p>
-              <p style="padding-left: 10px; font-weight: 700;margin-top: -15px;">21,261</p>
-
-          </div>
-          
-          
-
-        </div>
-        <!--Universirty Design Part 03 End-->
-      </div>
-
-    </div>
-
-  </div>
-
-<!--bODYPART START-->
-
-
-<br>  <br><br><br>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>
