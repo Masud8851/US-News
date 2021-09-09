@@ -136,8 +136,16 @@
                     <div class="header-btn">
                         <button type="button" class="btn btn-primary me-1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 12px; background-color: rgb(31, 70, 143); border-radius: 5px; padding: 4px; color: cornsilk;" onclick="filter()">Filter</button>
 
+                        <!-- OnClick JS -->
+                        <script>
+                            const filter =()=> {
+                                document.getElementById('left-according').style.display='flex';
+                                document.getElementById('left-according').style.flexDirection='column';   
+                            }
+                        </script>
+                        
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -153,7 +161,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="font-size: 12px; background-color: rgb(31, 70, 143); border-radius: 5px; padding: 4px; color: cornsilk;">Sort</button>
                         
