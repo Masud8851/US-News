@@ -64,6 +64,10 @@
     border-right: 1px solid #cdcbc7;
     width: 100%;
   }
+  .un-details img{
+    height: 20px; 
+    width: 20px;
+  }
   .un-right {
     display: none;
   }
