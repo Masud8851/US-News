@@ -114,7 +114,7 @@
         <!-- Total Schools and Rank By -->
         <div class="container mt-3" style="padding-top: 20px;">
             <div class="row sclrank" id="total-school-rank">
-                <div class="col-md-8" style="border-right: 1px solid black;" id="total-schools">
+                <div class="col-md-8" id="total-schools">
                     <p style="font-weight: 700; padding-top: 10px;">1678 Schools</p>
                 </div>
                 <div class="col-md-4" style="display: flex; padding-left: 20px;" id="sort-by" >
@@ -123,7 +123,7 @@
                            <strong>Short By:</strong> 
                         </p>
                     </div>
-                    <div style="padding-top: 1px;" class="sort">
+                    <div style="padding-top: 6px;" class="sort">
                         <select class="form-select" aria-label="Default select example" style="font-size: 14px;">
                             <option selected>Rankings (high to low)</option>
                             <option value="1">Rankings (low to high)</option>
@@ -134,7 +134,7 @@
                     </div>
                     <!-- Filter & Sort -->
                     <div class="header-btn">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 12px; background-color: rgb(31, 70, 143); border-radius: 5px; padding: 4px; color: cornsilk;">Filter</button>
+                        <button type="button" class="btn btn-primary me-1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 12px; background-color: rgb(31, 70, 143); border-radius: 5px; padding: 4px; color: cornsilk;" onclick="filter()">Filter</button>
 
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -145,7 +145,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        Hello
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -177,8 +177,6 @@
                         </div>
                     </div>
                 </div>
-
-                
             </div>
 
             <!-- Total Schools Responsive -->
@@ -308,14 +306,15 @@
                         <button type="button" class="btn btn-light btnstudy1">Japan</button>
                         <button type="button" class="btn btn-light btnstudy1">Netherlands</button>
                     </div>
+                    
                     <!--Universirty Design Part 01 sTART-->
                     <div class="un_design">
-                        <div style="width: 30%;">
+                        <div class="universityImage">
                             <img class="un_design_image" src="img/imageuniversity1.jpg" />
                         </div>
 
                         <div class="un-details">
-                            <p style="font-weight: 800; font-size: x-large;">Harbard University</p>
+                            <p class="universityDetails">Harbard University</p>
                             <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
                             <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
                             <span>Cambridge (U.S.)</span>
@@ -337,12 +336,12 @@
 
                     <!--Universirty Design Part 02 sTART-->
                     <div class="un_design">
-                        <div style="width: 30%;">
+                        <div class="universityImage">
                             <img class="un_design_image" src="img/imageuniversity2.jpg" />
                         </div>
 
                         <div class="un-details">
-                            <p style="font-weight: 800; font-size: x-large;">Massachusetts Institute of Technology</p>
+                            <p class="universityDetails">Massachusetts Institute of Technology</p>
                             <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
                             <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
                             <span>Cambridge (U.S.)</span>
@@ -364,12 +363,12 @@
 
                     <!--Universirty Design Part 03 START-->
                     <div class="un_design">
-                        <div style="width: 30%;">
+                        <div class="universityImage">
                             <img class="un_design_image" src="img/imageuniversity3.jpg" />
                         </div>
 
                         <div class="un-details">
-                            <p style="font-weight: 800; font-size: x-large;">Stanford University</p>
+                            <p class="universityDetails">Stanford University</p>
                             <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
                             <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
                             <span>Cambridge (U.S.)</span>
