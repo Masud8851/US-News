@@ -19,14 +19,19 @@
         visibility: hidden;
     }
     .sort{
-      visibility: hidden;
+      /* visibility: hidden; */
+      display: none;
+    }
+    #total-school-rank{
+      align-items: center;
+      justify-content: space-between;
     }
     .header-btn{
         /* display: flex; */
         visibility: visible;
-        position: absolute;
+        /* position: absolute;
         top: 905px;
-        left: 250px;
+        left: 250px; */
     }
     
     #left-according{

@@ -67,7 +67,7 @@
                 </ol>
             </nav>
         </div>
-        
+
         <!-- Header Brief -->
         <section class="container">
             <h1 class="fw-bold fs-1">2021 Best Global Universities Rankings</h1>
@@ -114,7 +114,7 @@
         <!-- Total Schools and Rank By -->
         <div class="container mt-3" style="padding-top: 20px;">
             <div class="row sclrank" id="total-school-rank">
-                <div class="col-md-8" style="border-right: 1px solid black;" id="total-schools">
+                <div class="col-md-8" id="total-schools">
                     <p style="font-weight: 700; padding-top: 10px;">1678 Schools</p>
                 </div>
                 <div class="col-md-4" style="display: flex; padding-left: 20px;" id="sort-by">
@@ -183,16 +183,15 @@
                 const totalSchoolRank = document.getElementById('total-school-rank');
                 const smallDevice = document.getElementById('total-schools');
                 const smallDeviceSort = document.getElementById('total-schools');
-                console.log(screen.width)
-                // if(screen.width <= 769)
-                // {
-                //     console.log(screen.width)
-                //     totalSchoolRank.classList.remove('row')
-                //     smallDevice.classList.remove('col-md-8');
-                //     smallDevice.classList.remove('sort-by');
-                    
-                // }
-                // totalSchoolRank.classList.add('d-flex')
+                // console.log(screen.width)
+                if(screen.width <= 769)
+                {
+                    console.log(screen.width)
+                    totalSchoolRank.classList.remove('row')
+                    smallDevice.classList.remove('col-md-8');
+                    smallDevice.classList.remove('sort-by');
+                    totalSchoolRank.classList.add('d-flex')                   
+                }
             </script>
 
         </div>
