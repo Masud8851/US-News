@@ -365,19 +365,83 @@
                             <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">21,261</p>
                         </div>
                     </div>
+                    
+                    <!--Universirty Design Part 02 sTART-->
+                    <div class="un_design">
+                        <div class="universityImage">
+                            <img class="un_design_image" src="img/imageuniversity2.jpg" />
+                        </div>
 
+                        <div class="un-details" id="uni-details2">
+                            <p class="universityDetails">Massachusetts Institute of Technology</p>
+                            <img src="img/USA.svg"/>
+                            <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
+                            <span>Cambridge (U.S.)</span>
+                            <p>
+                                <img src="img/mini-badge-color.svg"><span style="padding-left: 5px;"><b>#2</b> in <b>Best Global Universities</b></span><br />
+                                <img src="img/mini-badge-color.svg"/><span style="padding-left: 5px;"><b>#2</b> in <b>Best Global Universities</b></span>
+                            </p>
+                            <a href="#" style="text-decoration: none; color: grey; padding-top: -10px;">READ MORE >></a>
+                        </div>
+
+                        <div class="un-right">
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Global Score</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">100.0</p>
+
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Enrollment</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">21,261</p>
+                        </div>
+                    </div>
+
+                    <!--Universirty Design Part 03 START-->
+                    <div class="un_design">
+                        <div class="universityImage">
+                            <img class="un_design_image" src="img/imageuniversity3.jpg" />
+                        </div>
+
+                        <div class="un-details" id="uni-details3">
+                            <p class="universityDetails">Stanford University</p>
+                            <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
+                            <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
+                            <span>Cambridge (U.S.)</span>
+                            <p>
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#3</b> in <b>Best Global Universities</b></span><br />
+                                <img src="img/mini-badge-color.svg" style="height: 20px; width: 20px;" /><span style="padding-left: 5px;"><b>#3</b> in <b>Best Global Universities</b></span>
+                            </p>
+                            <a href="#" style="text-decoration: none; color: grey; padding-top: -10px;">READ MORE >></a>
+                        </div>
+
+                        <div class="un-right">
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Global Score</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">100.0</p>
+
+                            <p style="padding: 10px 0px 0px 10px; text-transform: uppercase; font-size: small; color: grey;">Enrollment</p>
+                            <p style="padding-left: 10px; font-weight: 700; margin-top: -15px;">21,261</p>
+                        </div>
+                    </div>
+                    <!--Universirty Design Part 03 End-->
                 </div>
             </div>
             <script>
                 const uniDetails = document.getElementById('uni-details');
+                const uniDetails2 = document.getElementById('uni-details2');
+                const uniDetails3 = document.getElementById('uni-details3');
                 if(screen.width<=769)
                 {
                     // uniDetails.classList.remove('un-right');
                     uniDetails.style.width='100%';
+                    uniDetails2.style.width='100%';
+                    uniDetails3.style.width='100%';
                 }
                 else{
                     uniDetails.style.width='52%';
                     uniDetails.style.borderRight='1px solid #1d1c1a';
+                    
+                    uniDetails2.style.width='52%';
+                    uniDetails2.style.borderRight='1px solid #1d1c1a';
+                    
+                    uniDetails3.style.width='52%';
+                    uniDetails3.style.borderRight='1px solid #1d1c1a';
                 }
             </script>
         </div>
