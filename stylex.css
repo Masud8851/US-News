@@ -22,6 +22,7 @@
       visibility: hidden;
     }
     .header-btn{
+        /* display: flex; */
         visibility: visible;
         position: absolute;
         top: 905px;
@@ -35,11 +36,24 @@
         position: relative;
         top: -420px;
     } */
+    .un_design{
+      display: flex;
+      margin-top: 25px;
+      box-shadow: 8px 8px 8px 5px rgb(224 224 224);
+    }
     .un_design_image{
-        width: 100%;
+      width: 100%;
+      height: 5px;
+    }
+    .un_design_image:hover{
+      opacity: 0.7;
+    }
+    .un-details{
+      border-right: 1px solid #cdcbc7;
+      width: 100%;
     }
     .un-right{
-        visibility: hidden;
+        display: none;
     }
 }
   .input_placeholder {
