@@ -3,6 +3,13 @@
 .sclrank{
     border: 1px solid #e8f1fa;
 }
+.header-btn{
+    visibility: hidden;
+}
+#features-area{
+    position: -ms-page;
+    top: -30px;
+}
 
 @media (max-width:769px) {
     #header-img{
@@ -11,17 +18,23 @@
     #header-row{
         visibility: hidden;
     }
-    #header-btn{
-        position: relative;
-        top: -100px;
+    .sort{
+      visibility: hidden;
     }
+    .header-btn{
+        visibility: visible;
+        position: absolute;
+        top: 892px;
+        left: 250px;
+    }
+    
     #left-according{
-        visibility: hidden;
+        /* visibility: hidden; */
     }
-    #features-area{
+    /* #features-area{
         position: relative;
         top: -420px;
-    }
+    } */
     .un_design_image{
         width: 100%;
     }
