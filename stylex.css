@@ -4,7 +4,8 @@
     border: 1px solid #e8f1fa;
 }
 .header-btn{
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
 }
 #features-area{
     position: -ms-page;
@@ -15,27 +16,23 @@
     #header-img{
         width: 180px;
     }
-    #header-row{
-        visibility: hidden;
-    }
+    
     .sort{
-      /* visibility: hidden; */
       display: none;
     }
+    
     #total-school-rank{
+      display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: space-between;
     }
     .header-btn{
-        /* display: flex; */
-        visibility: visible;
-        /* position: absolute;
-        top: 905px;
-        left: 250px; */
+        display: flex;
     }
     
     #left-according{
-        visibility: hidden;
+        display: none;
     }
     /* #features-area{
         position: relative;

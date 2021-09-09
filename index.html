@@ -114,10 +114,10 @@
         <!-- Total Schools and Rank By -->
         <div class="container mt-3" style="padding-top: 20px;">
             <div class="row sclrank" id="total-school-rank">
-                <div class="col-md-8" id="total-schools">
+                <div class="col-md-8" style="border-right: 1px solid black;" id="total-schools">
                     <p style="font-weight: 700; padding-top: 10px;">1678 Schools</p>
                 </div>
-                <div class="col-md-4" style="display: flex; padding-left: 20px;" id="sort-by">
+                <div class="col-md-4" style="display: flex; padding-left: 20px;" id="sort-by" >
                     <div class="sort">
                         <p style="font-weight: 400; padding-top: 10px; text-transform: uppercase; padding-right: 10px; font-size: 12px;">
                            <strong>Short By:</strong> 
@@ -132,7 +132,8 @@
                             <option value="4">Enrollment (high to low)</option>
                         </select>
                     </div>
-                    <div class="header-btn" >
+                    <!-- Filter & Sort -->
+                    <div class="header-btn">
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 12px; background-color: rgb(31, 70, 143); border-radius: 5px; padding: 4px; color: cornsilk;">Filter</button>
 
                         <!-- Modal -->
@@ -176,21 +177,35 @@
                         </div>
                     </div>
                 </div>
+
+                
             </div>
 
             <!-- Total Schools Responsive -->
             <script>
                 const totalSchoolRank = document.getElementById('total-school-rank');
-                const smallDevice = document.getElementById('total-schools');
-                const smallDeviceSort = document.getElementById('total-schools');
+                const totalSchools = document.getElementById('total-schools');
+                const rankSortBy = document.getElementById('sort-by');
+                const headerBtn = document.getElementById('header-btn')
                 // console.log(screen.width)
                 if(screen.width <= 769)
                 {
-                    console.log(screen.width)
-                    totalSchoolRank.classList.remove('row')
-                    smallDevice.classList.remove('col-md-8');
-                    smallDevice.classList.remove('sort-by');
-                    totalSchoolRank.classList.add('d-flex')                   
+                    // total-schools-row
+                    totalSchoolRank.classList.remove('row');
+                    totalSchoolRank.classList.add('d-flex');
+                    // total-schools
+                    totalSchools.classList.remove('col-md-8');
+                    // sort-by
+                    rankSortBy.classList.remove('col-md-4');              
+                }
+                else{
+                    // total-schools-row
+                    totalSchoolRank.classList.add('row');
+                    totalSchoolRank.classList.remove('d-flex');
+                    // total-schools
+                    totalSchools.classList.add('col-md-8');
+                    // sort-by
+                    rankSortBy.classList.add('col-md-4'); 
                 }
             </script>
 
