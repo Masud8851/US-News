@@ -108,6 +108,6 @@ button.btn.btn-light.btnstudy1:hover{
   opacity: 0.7;
 }
 .un-details {
-  border-right: 1px solid #1d1c1a;
-  width: 52%;
+  /* border-right: 1px solid #1d1c1a; */
+  width: 100%;
 }
