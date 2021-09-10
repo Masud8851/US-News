@@ -323,9 +323,9 @@
                     </div>
                     
                     <!--Universirty Design Part 02 sTART-->
-                    <div class="un_design">
+                    <div class="un_design" id="university-design">
                         <div class="universityImage">
-                            <img class="un_design_image" src="img/imageuniversity2.jpg" />
+                            <img id="uni-image" class="un_design_image" src="img/imageuniversity2.jpg" />
                         </div>
 
                         <div class="un-details" id="uni-details2">
@@ -352,12 +352,12 @@
                     <!--Universirty Design Part 03 START-->
                     <div class="un_design">
                         <div class="universityImage">
-                            <img class="un_design_image" src="img/imageuniversity3.jpg" />
+                            <img  class="un_design_image" src="img/imageuniversity3.jpg"/>
                         </div>
 
                         <div class="un-details" id="uni-details3">
                             <p class="universityDetails">Stanford University</p>
-                            <span><img src="img/USA.svg" style="height: 20px; width: 20px;" /></span>
+                            <span><img src="img/USA.svg" style="height: 20px; width: 20px;"/></span>
                             <span style="padding-left: 5px; padding-right: 5px; border-right: 1px solid rgb(48, 49, 48);">United States</span>
                             <span>Cambridge (U.S.)</span>
                             <p>
@@ -380,14 +380,20 @@
             </div>
             <script>
                 const uniDetails = document.getElementById('uni-details');
+                const uniImage = document.getElementById('uni-image')
                 const uniDetails2 = document.getElementById('uni-details2');
                 const uniDetails3 = document.getElementById('uni-details3');
+                const universityDetails = document.getElementById('university-design');
                 if(screen.width<=769)
                 {
                     // uniDetails.classList.remove('un-right');
                     uniDetails.style.width='100%';
                     uniDetails2.style.width='100%';
                     uniDetails3.style.width='100%';
+                    // uniImage.style.width='fit-content'
+                    // universityDetails.classList.add('d-flex');
+                    // universityDetails.style.flexDirection='column';
+
                 }
                 else{
                     uniDetails.style.width='52%';
