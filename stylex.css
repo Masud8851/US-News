@@ -3,10 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-li,p a{
+a:-webkit-any-link {
+  cursor: pointer;
   text-decoration: none;
 }
-
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+/* #header-img {
+  float: right;
+  width: 300px;
+}
+#float {
+  float: left;
+} */
 .social-icon {
   width: 100%;
 }
@@ -59,9 +69,9 @@ li,p a{
   width: 20px;
 }
 @media (max-width: 769px){
-  #header-img {
+  /* #header-img {
     width: 180px;
-  }
+  } */
   .sort{
     display: none;
   }
