@@ -81,149 +81,58 @@
             
             <div id="filter-sort">
                 <div>
-                    <button id="filter-btn">Filter</button>
+                    <button id="filter-btn" type="button" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal"  onclick="filter()">Filter</button>
+                    <!-- OnClick Filter -->
+                    <script>
+                        const filter =()=> {
+                            document.getElementById('left-according').style.display='flex';
+                            document.getElementById('left-according').style.flexDirection='column';   
+                        }
+                    </script>
                 </div>
+
                 <div>
-                    <button id="sort-btn">Sort</button>
+                    <button id="sort-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" >Sort</button>
                 </div>
-            </div>
-
-        </div>
-
-        <div class="ps-4 mt-3 pe-2" style="padding-top: 20px;">
-            <div class="row sclrank" id="total-school-rank">
-                <div class="col-md-8" id="total-schools">
-                    <p style="font-weight: 700; padding-top: 10px;">1678 Schools</p>
-                </div>
-                <div class="col-md-4" style="display: flex; padding-left: 20px;" id="sort-by" >
-                    <div class="sort">
-                        <p style="font-weight: 400; padding-top: 10px; text-transform: uppercase; padding-right: 10px; font-size: 12px;">
-                           <strong>Short By:</strong> 
-                        </p>
-                    </div>
-                    <div style="padding-top: 6px;" class="sort">
-                        <select class="form-select" aria-label="Default select example" style="font-size: 14px;">
-                            <option selected>Rankings (high to low)</option>
-                            <option value="1">Rankings (low to high)</option>
-                            <option value="2">Alphabetically (A-Z)</option>
-                            <option value="3">Alphabetically (Z-A)</option>
-                            <option value="4">Enrollment (high to low)</option>
-                        </select>
-                    </div>
-                    <!-- Filter & Sort -->
-                    <div class="header-btn">
-                        <button type="button" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 12px; background-color: rgb(31, 70, 143); border-radius: 5px; padding: 4px; color: cornsilk;" onclick="filter()">Filter</button>
-
-                        <!-- OnClick Filter -->
-                        <script>
-                            const filter =()=> {
-                                document.getElementById('left-according').style.display='flex';
-                                document.getElementById('left-according').style.flexDirection='column';   
-                            }
-                        </script>
-
-                        <!-- Modal -->
-                        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Hello
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">SORT SCHOOLS</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                        </div> -->
+                            <button style="font-size: 14px; background-color: rgb(31, 70, 143); border-radius: 5px; color: cornsilk; width: 100px; margin-left: 12px; margin-top: 10px; height: auto;">View Matches</button>
+                            
+                            <!-- Choice options -->
+                            <div class="modal-body">
+                                <form >
+                                    <input type="radio" name="choice" value="hToL" id="choice-low"> 
+                                    <label for="choice-yes">Ranking (hight to low)</label> <br>
 
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="font-size: 12px; background-color: rgb(31, 70, 143); border-radius: 5px; padding: 4px; color: cornsilk;" onclick="sort()">Sort</button>
-                        
-                        <!-- Onclick Sort By -->
-                        <!-- <script>
-                            const sort = () =>{
+                                    <input type="radio" name="choice" value="lToH" id="choice-high"> 
+                                    <label for="choice-yes">Ranking (low to high)</label> <br>
 
-                            }
-                        </script> -->
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">SORT SCHOOLS</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <button style="font-size: 14px; background-color: rgb(31, 70, 143); border-radius: 5px; color: cornsilk; width: 100px; margin-left: 12px; margin-top: 10px; height: auto;">View Matches</button>
-                                    
-                                    <div class="modal-body">
-                                        <form >
-                                            <input type="radio" name="choice" value="hToL" id="choice-low"> 
-                                            <label for="choice-yes">Ranking (hight to low)</label> <br>
+                                    <input type="radio" name="choice" value="a2z" id="choice-a2z"> 
+                                    <label for="choice-yes">Alphabetically (A-Z)</label> <br>
 
-                                            <input type="radio" name="choice" value="lToH" id="choice-high"> 
-                                            <label for="choice-yes">Ranking (low to high)</label> <br>
+                                    <input type="radio" name="choice" value="z2a" id="choice-z2a"> 
+                                    <label for="choice-yes">Alphabetically (Z-A)</label> <br>
 
-                                            <input type="radio" name="choice" value="a2z" id="choice-a2z"> 
-                                            <label for="choice-yes">Alphabetically (A-Z)</label> <br>
-
-                                            <input type="radio" name="choice" value="z2a" id="choice-z2a"> 
-                                            <label for="choice-yes">Alphabetically (Z-A)</label> <br>
-
-                                            <input type="radio" name="choice" value="lToH" id="choice-enrollment"> 
-                                            <label for="choice-yes">Enrollment (hight to low)</label>
-
-                                        </form>
-                                    </div>
-                                    <!-- <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div> -->
-                                </div>
+                                    <input type="radio" name="choice" value="lToH" id="choice-enrollment"> 
+                                    <label for="choice-yes">Enrollment (hight to low)</label>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Total Schools Responsive -->
-            <script>
-                const totalSchoolRank = document.getElementById('total-school-rank');
-                const totalSchools = document.getElementById('total-schools');
-                const rankSortBy = document.getElementById('sort-by');
-                const headerBtn = document.getElementById('header-btn')
-                // console.log(screen.width)
-                if(screen.width <= 769)
-                {
-                    // total-schools-row
-                    totalSchoolRank.classList.remove('row');
-                    totalSchoolRank.classList.add('d-flex');
-                    // total-schools
-                    totalSchools.classList.remove('col-md-8');
-                    // sort-by
-                    rankSortBy.classList.remove('col-md-4');              
-                }
-                else{
-                    // total-schools-row
-                    totalSchoolRank.classList.add('row');
-                    totalSchoolRank.classList.remove('d-flex');
-                    // total-schools
-                    totalSchools.classList.add('col-md-8');
-                    // sort-by
-                    rankSortBy.classList.add('col-md-4'); 
-                }
-            </script>
-
         </div>
-
-        
-        <!--bODYPART START-->
-        <div class="container">
+     
+        <!-- Features Area -->
+        <div class="ps-2 pe-2 features-area">
             <div class="row bodypart">
-                <!--LEFT SIDE PART START-->
+                <!--Left According-->
                 <div class="col-lg-2" id="left-according">
                     <div>
                         <div class="accordion" id="accordionExample">

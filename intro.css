@@ -93,10 +93,7 @@
     #left-according {
       display: none;
     }
-    /* #features-area{
-        position: relative;
-        top: -420px;
-    } */
+    
     .un_design {
       display: flex;
       margin-top: 25px;
@@ -125,10 +122,12 @@
     padding: 10px 0px 10px 0px;
     border-bottom: 1px solid #e8f1fa;
   }
-  .bodypart{
-    padding-top: 20px;
-  }
-  
+
+/* Features Area */
+.features-area{
+    margin-top: 30px;
+}
+   
   button.btn.btn-light.btnstudy1{
     border: 1px solid #ccced1;
     margin: 0px 0.5rem 0.5rem 0px;
@@ -194,7 +193,6 @@
         border-radius: 5px; 
         padding: 4px; 
         color: cornsilk;
-        margin-right: 5px;
     }
     #sort-btn{
         font-size: 12px; background-color: rgb(31, 70, 143); 
