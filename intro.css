@@ -161,13 +161,18 @@
     border: 1px solid green;
     padding: 5px;
     margin: 5px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+#rankScale{
+    border: 1px solid green;
+    height: auto;
 }
 #sortBy{
     display: flex;
     justify-content: flex-end;
-    margin-left: 5px;
     padding-left: 3px;
     padding-right: 3px;
+    align-items: center;
 }
