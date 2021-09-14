@@ -43,117 +43,7 @@
     box-shadow: 0px 1px 3px 2px #f30909;
   }
   
-  /*New_page*/
-  .sclrank{
-    border: 1px solid #e8f1fa;
-  }
-  .header-btn {
-    display: none;
-  }
-  #features-area{
-    position: -ms-page;
-    top: -30px;
-  }
-  #total-schools{
-    border-right: 1px solid black;
-  }
-  .universityImage{
-    width: 30%;
-  }
-  .universityDetails{
-    font-weight: 800; 
-    font-size: x-large;
-  }
-  .un-details img{
-    height: 20px; 
-    width: 20px;
-  }
-  @media (max-width: 769px){
-    /* #header-img {
-      width: 180px;
-    } */
-    .sort{
-      display: none;
-    }
-  
-    #total-school-rank{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-    #total-schools{
-      border-right: 0;
-    }
-    .header-btn{
-      display: flex;
-      padding: 5px;
-    }
-  
-    #left-according {
-      display: none;
-    }
-    
-    .un_design {
-      display: flex;
-      margin-top: 25px;
-      box-shadow: 8px 8px 8px 5px rgb(224 224 224);
-    }
-    .un_design_image {
-      width: 100%;
-      height: 5px;
-    }
-    .un_design_image:hover {
-      opacity: 0.7;
-    }
-    .un-details img{
-      height: 20px; 
-      width: 20px;
-    }
-    .un-details {
-      border: 1px solid white;
-      width: 100%;
-    }
-    .un-right{
-      display: none;
-    }
-  }
-  .input_placeholder{
-    padding: 10px 0px 10px 0px;
-    border-bottom: 1px solid #e8f1fa;
-  }
-
-/* Features Area */
-.features-area{
-    margin-top: 30px;
-}
-   
-  button.btn.btn-light.btnstudy1{
-    border: 1px solid #ccced1;
-    margin: 0px 0.5rem 0.5rem 0px;
-    padding: 5px 1rem;
-    height: 2.25rem;
-    border-radius: calc(1.125rem);
-    font-size: 0.875rem;
-  }
-  button.btn.btn-light.btnstudy1:hover{
-    border: 2px solid grey;
-  }
-  .un_design{
-    display: flex;
-    margin-top: 25px;
-    box-shadow: 8px 8px 8px 5px rgb(224 224 224);
-  }
-  .un_design_image{
-    width: 92%;
-    height: 175px;
-  }
-  .un_design_image:hover{
-    opacity: 0.7;
-  }
-  
-
-
+ 
 
 /* Neeew */
 body{
@@ -180,6 +70,17 @@ body{
     padding-right: 3px;
     align-items: center;
 }
+button.btn.btn-light.btnstudy1{
+    border: 1px solid #ccced1;
+    margin: 0px 0.5rem 0.5rem 0px;
+    padding: 5px 1rem;
+    height: 2.25rem;
+    border-radius: calc(1.125rem);
+    font-size: 0.875rem;
+}
+button.btn.btn-light.btnstudy1:hover{
+    border: 2px solid grey;
+}
 #filter-sort{
     display: none;
 }
@@ -203,6 +104,9 @@ body{
     #sortBy{
         display: none;
     }
+    #left-according {
+        display: none;
+      }
     #filter-sort{
         display: flex;
     }
@@ -225,4 +129,8 @@ body{
     #globalScore{
         display: none;
     }
+    .row{
+        --bs-gutter-x:0 !important;
+    }
+    
 }
