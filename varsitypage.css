@@ -112,15 +112,12 @@
 .filter_page2{
     margin-top: 30px;
     border-bottom: 1px solid grey;
-  }
-  .btnstudy1{
+}
+.btnstudy1{
     border: 1px solid grey;
-    margin-right: 5px;
-    padding: 11px 16px;;
-    margin-left: 10px; 
     text-transform: uppercase;
-  }
-  button.btn.btn-light.btnstudy1 {
+}
+button.btn.btn-light.btnstudy1 {
     border: 1px solid #ccced1;
     margin: 0px 0.5rem 0.5rem 0px;
     padding: 5px 1rem;
@@ -191,4 +188,11 @@ button.btn.btn-light.btnstudy1:hover {
         padding-top: 54px;
         margin-left: 5px;
     }
+    .filter_page2{
+        display: flex;
+        margin-top: 30px;
+        border-bottom: 1px solid grey;
+    }
+    
+    
 }
