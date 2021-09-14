@@ -3,17 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-a{
+li,p a{
   text-decoration: none;
-  color: black;
 }
-#header-img {
-  float: right;
-  width: 300px;
-}
-#float {
-  float: left;
-}
+
 .social-icon {
   width: 100%;
 }
