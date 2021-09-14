@@ -52,7 +52,7 @@
 }
 
 /* Status Information Bar */
-/* .uni_info{
+.uni_info{
     padding: 20px;
     margin: 4px 0 12px ;
     display: inline-block;
@@ -90,7 +90,7 @@
     float: right;
     display: flex;
     
-} */
+}
 
 /* Compare & Shortlist Section */
 .compare{
@@ -102,7 +102,6 @@
 .faceImg{
     padding-top: 54px;
     margin-left: 65%;
-
 }
 .aboutuni{
     margin-top: 30px;
@@ -175,9 +174,21 @@ button.btn.btn-light.btnstudy1:hover {
 }
 
 /* Media Query for Small Devices */
-@media screen and (max-width: 480px) {
-    ul>li{
+@media only screen and (max-width: 480px) {
+    ul{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        column-gap: 5px;
+        row-gap: 10px;
+        padding: 0;
+    }
+    .uni_info ul li {
+        border-right: 0;
+        padding-left: 0;
+        line-height: 25px;
+    }
+    .faceImg{
+        padding-top: 54px;
+        margin-left: 5px;
     }
 }
