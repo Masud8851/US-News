@@ -14,7 +14,7 @@
 
     <body>
         <!-- Header Breadcrumb -->
-        <nav aria-label="breadcrumb" class="ps-2">
+        <nav aria-label="breadcrumb" class="ps-2 pe-2">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page"><a href="#">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page"><a href="#">Education</a></li>
@@ -25,7 +25,7 @@
         
         <!-- Header Brief -->
         <h1 class="fw-bold fs-1 ps-2 pe-2">2021 Best Global Universities Rankings</h1>
-        <p class="fs-5 ps-2">
+        <p class="fs-5 ps-2 pe-2">
             These institutions from the U.S. and more than 80 other countries have been
             ranked based on 13 indicators that measure their academic research performance and their global and regional reputations. Students can use these rankings to explore the higher education options that exist beyond their own
             countries' borders and to compare key aspects of schools' research missions. These are the world's nearly 1,500 top universities. <a href="" class="text-primary">Read the methodology »</a> <br />
@@ -65,7 +65,7 @@
         
 
         <!-- Total Schools and Rank By -->
-        <div id="rank-School">
+        <div class="ps-2 pe-2" id="rank-School">
             <div><h6>1678 Schools</h6></div>
             <span id="rankScale"> </span>
             <div id="sortBy">
@@ -255,7 +255,7 @@
                                 <a href="">Read More >>></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex flex-column">
+                        <div class="col-lg-2 d-flex flex-column" id="globalScore">
                             <h6>GLOBAL SCORE</h6>
                             <strong>100.0</strong>
                         </div>
@@ -288,7 +288,7 @@
                                 <a href="">Read More >>></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex flex-column">
+                        <div class="col-lg-2 d-flex flex-column" id="globalScore">
                             <h6>GLOBAL SCORE</h6>
                             <strong>100.0</strong>
                         </div>
@@ -321,7 +321,7 @@
                                 <a href="">Read More >>></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex flex-column">
+                        <div class="col-lg-2 d-flex flex-column" id="globalScore">
                             <h6>GLOBAL SCORE</h6>
                             <strong>100.0</strong>
                         </div>
@@ -329,33 +329,7 @@
                 </div>
             </div>
             <script>
-                const uniDetails = document.getElementById('uni-details');
-                const uniImage = document.getElementById('uni-image')
-                const uniDetails2 = document.getElementById('uni-details2');
-                const uniDetails3 = document.getElementById('uni-details3');
-                const universityDetails = document.getElementById('university-design');
-                if(screen.width<=769)
-                {
-                    // uniDetails.classList.remove('un-right');
-                    uniDetails.style.width='100%';
-                    uniDetails2.style.width='100%';
-                    uniDetails3.style.width='100%';
-                    uniImage.style.width='fit-content'
-                    uniImage.style.padding='fit-content'
-                    universityDetails.classList.add('d-flex');
-                    universityDetails.style.flexDirection='column';
-                }
-                else
-                {
-                    uniDetails.style.width='52%';
-                    uniDetails.style.borderRight='1px solid #1d1c1a';
-                    
-                    uniDetails2.style.width='52%';
-                    uniDetails2.style.borderRight='1px solid #1d1c1a';
-                    
-                    uniDetails3.style.width='52%';
-                    uniDetails3.style.borderRight='1px solid #1d1c1a';
-                }
+                
             </script>
         </div>
 

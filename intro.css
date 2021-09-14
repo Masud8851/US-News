@@ -156,9 +156,12 @@
 
 
 /* Neeew */
+body{
+    overflow-x: hidden;
+}
 #rank-School{
     border: 1px solid green;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     margin-top: 20px;
     display: flex;
@@ -214,5 +217,12 @@
         border-radius: 5px; 
         padding: 4px; 
         color: cornsilk;
+    }
+    .state{
+        align-items: center;
+        border-right: 0;
+    }
+    #globalScore{
+        display: none;
     }
 }
