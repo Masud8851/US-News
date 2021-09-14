@@ -126,11 +126,15 @@ button.btn.btn-light.btnstudy1:hover{
         align-items: center;
         border-right: 0;
     }
-    #globalScore{
+    .globalScore{
         display: none;
     }
     .row{
         --bs-gutter-x:0 !important;
+    }
+    #feature-universities{
+        margin: 20px;
+        border: 1px solid green;
     }
     
 }

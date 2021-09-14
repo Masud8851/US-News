@@ -56,7 +56,7 @@
         </div>
 
         <!-- Social Icon -->
-        <div class="social-icon">
+        <div class="social-icon ps-2">
             <a href="https://www.usnews.com/education/best-global-universities/rankings"target="_blank"><i class="fa fa-facebook"></i> </a>
             <a href="https://www.usnews.com/education/best-global-universities/rankings"target="_blank"><i class="fa fa-twitter"></i> </a>
             <a href="https://www.usnews.com/education/best-global-universities/rankings"target="_blank"><i class="fa fa-instagram"></i> </a>
@@ -227,10 +227,10 @@
                     </div>
                     <!-- Feature Universities  -->
                     <div class="row p-3" id="feature-universities">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 uniImage">
                             <img src="img/imageuniversity1.jpg" class="w-100">
                         </div>
-                        <div class="col-lg-6 state">
+                        <div class="col-lg-6 state pt-4" id="university">
                             <div>
                                 <h3><a href="#">Harvard University</a></h3>
                                 <div class="d-flex">
@@ -250,20 +250,19 @@
                                     <strong>Best Global Universities</strong>
                                 </div>
                             </div>
-                            <div>
-                                <a href="">Read More >>></a>
-                            </div>
+                            <a href="">Read More >>></a>
+                            
                         </div>
-                        <div class="col-lg-2 d-flex flex-column" id="globalScore">
+                        <div class="col-lg-2 d-flex flex-column pt-3" id="globalScore">
                             <h6>GLOBAL SCORE</h6>
                             <strong>100.0</strong>
                         </div>
                     </div>
                     <div class="row p-3" id="feature-universities">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 uniImage">
                             <img src="img/imageuniversity1.jpg" class="w-100">
                         </div>
-                        <div class="col-lg-6 state">
+                        <div class="col-lg-6 state pt-4 text-center" id="university">
                             <div>
                                 <h3><a href="#">Harvard University</a></h3>
                                 <div class="d-flex">
@@ -283,20 +282,19 @@
                                     <strong>Best Global Universities</strong>
                                 </div>
                             </div>
-                            <div>
-                                <a href="">Read More >>></a>
-                            </div>
+                            <a href="">Read More >>></a>
+                            
                         </div>
-                        <div class="col-lg-2 d-flex flex-column" id="globalScore">
+                        <div class="col-lg-2 d-flex flex-column pt-3 text-center" id="globalScore">
                             <h6>GLOBAL SCORE</h6>
                             <strong>100.0</strong>
                         </div>
                     </div>
                     <div class="row p-3" id="feature-universities">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 uniImage">
                             <img src="img/imageuniversity1.jpg" class="w-100">
                         </div>
-                        <div class="col-lg-6 state">
+                        <div class="col-lg-6 state pt-4" id="university">
                             <div>
                                 <h3><a href="#">Harvard University</a></h3>
                                 <div class="d-flex">
@@ -316,21 +314,38 @@
                                     <strong>Best Global Universities</strong>
                                 </div>
                             </div>
-                            <div>
-                                <a href="">Read More >>></a>
-                            </div>
+                            <a href="">Read More >>></a>
+                            
                         </div>
-                        <div class="col-lg-2 d-flex flex-column" id="globalScore">
+                        <div class="col-lg-2 d-flex flex-column pt-3" id="globalScore">
                             <h6>GLOBAL SCORE</h6>
                             <strong>100.0</strong>
                         </div>
                     </div>
+                    
 
+                    <script>
+                        const globalScore = document.getElementById('globalScore');
+                        const university = document.getElementById('university');
+                        if(screen.width<=769){
+                            globalScore.style.display='none';
+                            university.classList.add('cols-lg-8')
+                        }
 
+                    </script>
                 </div>
             </div>
         </div>
 
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
