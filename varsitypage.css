@@ -203,4 +203,7 @@ button.btn.btn-light.btnstudy1:hover {
         border-radius: calc(1.125rem);
         font-size: 0.875rem;
     }  
+    .features-university{
+        display: none;
+    }
 }
