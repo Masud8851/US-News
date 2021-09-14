@@ -148,21 +148,21 @@ button.btn.btn-light.btnstudy1:hover {
     color: darkcyan;
     padding-top: 11px;
 }
-  .unilocation{
+.unilocation{
     float: left; height: 20px;width: 20px; padding-left: 5px;
-  }
-  .location{
-      margin-left: 15px;
-  }
-  .programinfo{
-      margin-top:20px;
-  }
-  .program_info_line{
+}
+.location{
+    margin-left: 15px;
+}
+.programinfo{
+    margin-top:20px;
+}
+.program_info_line{
     border-top: 1px solid #e4e3e5;
-  }
-  .uni_info_under_padding{
-      padding-top: 20px;
-  }
+}
+.uni_info_under_padding{
+    padding-top: 20px;
+}
 .location_padding{
     padding-top: 10px;
     display: flex;
