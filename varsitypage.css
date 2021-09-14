@@ -126,6 +126,7 @@ button.btn.btn-light.btnstudy1 {
 }
 button.btn.btn-light.btnstudy1:hover {
     border: 1px solid grey;
+    background-color: lawngreen;
 }
 
 .program_details{
@@ -170,6 +171,7 @@ button.btn.btn-light.btnstudy1:hover {
 }
 
 /* Media Query for Small Devices */
+/** For  Mobile View **/
 @media only screen and (max-width: 480px) {
     ul{
         display: grid;
@@ -192,6 +194,12 @@ button.btn.btn-light.btnstudy1:hover {
         margin-top: 30px;
         border-bottom: 1px solid grey;
     }
-    
-    
+    button.btn.btn-light.btnstudy1 {
+        border: 1px solid #ccced1;
+        margin: 0px 0.5rem 0.5rem 0px;
+        padding: 0.3px .3rem;
+        height: 2.25rem;
+        border-radius: calc(1.125rem);
+        font-size: 0.875rem;
+    }  
 }
