@@ -168,6 +168,8 @@
 #rankScale{
     border: 1px solid green;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 #sortBy{
     display: flex;
@@ -175,4 +177,29 @@
     padding-left: 3px;
     padding-right: 3px;
     align-items: center;
+}
+#filter-sort{
+    display: none;
+}
+
+@media only screen and (max-width:769px) {
+    #sortBy{
+        display: none;
+    }
+    #filter-sort{
+        display: flex;
+    }
+    #filter-btn{
+        font-size: 12px; background-color: rgb(31, 70, 143); 
+        border-radius: 5px; 
+        padding: 4px; 
+        color: cornsilk;
+        margin-right: 5px;
+    }
+    #sort-btn{
+        font-size: 12px; background-color: rgb(31, 70, 143); 
+        border-radius: 5px; 
+        padding: 4px; 
+        color: cornsilk;
+    }
 }
