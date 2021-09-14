@@ -180,7 +180,16 @@
 #filter-sort{
     display: none;
 }
-
+.state{
+    align-items: center;
+}
+.state img{
+    width: 20px;
+    height: 20px;
+}
+.state span{
+    margin-right: 2px;
+}
 @media only screen and (max-width:769px) {
     #sortBy{
         display: none;
