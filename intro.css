@@ -181,7 +181,9 @@
     display: none;
 }
 #feature-universities{
-    
+    /* border: 1px solid green; */
+    margin: 15px;
+    box-shadow: 8px 8px 8px 5px rgb(148, 156, 135);
 }
 .state{
     align-items: center;
