@@ -51,7 +51,8 @@
     display: flex;
 }
 
-.uni_info{
+/* Status Information Bar */
+/* .uni_info{
     padding: 20px;
     margin: 4px 0 12px ;
     display: inline-block;
@@ -89,7 +90,9 @@
     float: right;
     display: flex;
     
-}
+} */
+
+/* Compare & Shortlist Section */
 .compare{
     padding: 0px 50px 0px 13px;
 }
@@ -169,4 +172,12 @@ button.btn.btn-light.btnstudy1:hover {
 }
 .location_p{
     padding-left: 10px;
+}
+
+/* Media Query for Small Devices */
+@media screen and (max-width: 480px) {
+    ul>li{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
