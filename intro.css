@@ -130,9 +130,9 @@ button.btn.btn-light.btnstudy1:hover{
         margin: 20px;
         border: 1px solid green;
     }  
-    .card{
-        display: flex;
-        justify-content: center;
+    
+    .globalScore{
+        display: none;
     }
 }
 
