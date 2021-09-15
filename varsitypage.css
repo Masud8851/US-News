@@ -204,7 +204,7 @@ button.btn.btn-light.btnstudy1:hover {
         font-size: 0.875rem;
     }  
     .features-university{
-        display: none;
+        /* display: none; */
     }
 }
 
