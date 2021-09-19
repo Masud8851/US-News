@@ -243,3 +243,9 @@ button.btn.btn-light.btnstudy1:hover {
 .accordionEdit{
     padding-top: 6px;
 }
+/* #add-section{
+    padding: 10px;
+} */
+.row {
+    --bs-gutter-x: 0 !important;
+}
