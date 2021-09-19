@@ -194,10 +194,11 @@ button.btn.btn-light.btnstudy1:hover {
         padding-left: 0;
         line-height: 25px;
     }
-    .faceImg{
-        padding-top: 54px;
-        margin-left: 5px;
+    .uni_info_under {
+        float: left;
+        display: flex;
     }
+    
     .filter_page2{
         display: flex;
         margin-top: 30px;
