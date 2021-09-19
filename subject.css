@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.findprogram{
+    padding-top: 40px;
+}
+table.StdTable {
+    padding: 15px;
+    border: 1px solid #E5E5E5;
+    display: block;
+}
+td.LabelCell {
+    width: 18%;
+    padding: 14px 17px;
+    text-decoration: none;
+}
+.tr1 {
+    border-bottom: 1px solid #E5E5E5;;
+     
+}
+td{
+    padding: 10px 25px;
+}
+.aedit {
+    text-decoration: none;
+    color: black;
+}
