@@ -27,12 +27,3 @@ td{
     color: black;
 }
 
-
-/* New */
-@media only screen and (max-width: 900px)
-{
-    .LabelCell{
-        width: 100%;
-        word-wrap: break-word;
-    }
-}
