@@ -11,19 +11,22 @@ table.StdTable {
     display: block;
 }
 td.LabelCell {
-    width: 18%;
+    /* width: 18%;
     padding: 14px 17px;
-    text-decoration: none;
+    text-decoration: none; */
 }
 .tr1 {
-    border-bottom: 1px solid #E5E5E5;;
-     
+    border-bottom: 1px solid #E5E5E5;;   
 }
 td{
     padding: 10px 25px;
 }
-.aedit {
+a:any-link {
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (max-width:900) {
+    
 }
 
