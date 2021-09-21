@@ -24,7 +24,10 @@
 input{
     height: 39px;
 }
-
+#side-image{
+    position: sticky;
+    top: 210px;
+}
 
 /* Media Query */
 @media only screen and (max-width:900px) {
@@ -34,5 +37,8 @@ input{
     }
     button{
         margin-bottom: 5px;
+    }
+    #side-image{
+        display: none;
     }
 }
