@@ -47,9 +47,11 @@ header{
     color: whitesmoke;
 }
 #footer-small{
+    
     margin-right: 10px;
     margin-left: 5px;
     padding-left: 15px;
+    color: whitesmoke;
 }
 
 /* Media Query */
