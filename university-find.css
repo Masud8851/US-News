@@ -29,13 +29,27 @@ input{
 }
 #side-image{
     position: sticky;
-    top: 210px;
+    top: 158px;
+    width: 100%;
 }
 
 header{
     position: sticky;
     top: 0;
     background-color: whitesmoke;
+}
+.footer-menu{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-left: 15px;
+    color: whitesmoke;
+}
+#footer-small{
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-left: 15px;
 }
 
 /* Media Query */
