@@ -6,5 +6,16 @@
 
 /* Main Body */
 .main-body{
-    background-color: #848484;
+    background-color: #f0f3f8;
+}
+.main-body-sizing{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width:900px) {
+    .main-body-sizing{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
