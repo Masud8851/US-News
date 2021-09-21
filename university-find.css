@@ -12,7 +12,9 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-
+#next{
+    float: right;
+}
 
 /* Media Query */
 @media only screen and (max-width:900px) {
