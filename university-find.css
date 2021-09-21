@@ -55,6 +55,11 @@ header{
     border: 1px solid whitesmoke;
     margin: 0 10px;
 }
+#social-icon-bar{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 0;
+}
 
 /* Media Query */
 @media only screen and (max-width:900px) {
@@ -67,5 +72,11 @@ header{
     }
     #side-image{
         display: none;
+    }
+    #social-icon-bar{
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+        margin: auto;
     }
 }
