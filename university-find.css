@@ -29,6 +29,12 @@ input{
     top: 210px;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+}
+
 /* Media Query */
 @media only screen and (max-width:900px) {
     .main-body-sizing{
