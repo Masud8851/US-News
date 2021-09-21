@@ -41,17 +41,19 @@ header{
 .footer-menu{
     font-size: 15px;
     font-weight: 500;
-    margin-right: 10px;
-    margin-left: 5px;
-    padding-left: 15px;
+    margin-right: 15px;
     color: whitesmoke;
 }
-#footer-small{
-    
-    margin-right: 10px;
-    margin-left: 5px;
-    padding-left: 15px;
-    color: whitesmoke;
+#footer-small{  
+    color: white;
+    margin: auto;
+}
+.social-icon {
+    width: 40px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    border: 1px solid whitesmoke;
+    margin: 0 10px;
 }
 
 /* Media Query */
