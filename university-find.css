@@ -21,6 +21,10 @@
     color: rgb(7, 7, 7);
     font-weight: 600;
 }
+input{
+    height: 39px;
+}
+
 
 /* Media Query */
 @media only screen and (max-width:900px) {
