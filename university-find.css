@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a:any-link{
+    text-decoration: none;
+}
 
 /* Main Body */
 .main-body{
@@ -33,12 +36,6 @@ header{
     position: sticky;
     top: 0;
     background-color: whitesmoke;
-}
-.nav-link {
-    display: block;
-    padding: .5rem 1rem;
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 /* Media Query */
